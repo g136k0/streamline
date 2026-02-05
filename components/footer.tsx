@@ -18,33 +18,6 @@ export function Footer() {
               <p className="text-muted-foreground max-w-sm">
                 Custom web apps and automations that save time, reduce costs, and help your business scale.
               </p>
-              <div className="flex gap-3 pt-2">
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 hover:bg-primary/10 rounded-lg transition-colors"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="w-5 h-5" />
-                </a>
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 hover:bg-primary/10 rounded-lg transition-colors"
-                  aria-label="GitHub"
-                >
-                  <Github className="w-5 h-5" />
-                </a>
-                <a
-                  href="mailto:contact@streamlinelabs.com"
-                  className="p-2 hover:bg-primary/10 rounded-lg transition-colors"
-                  aria-label="Email"
-                >
-                  <Mail className="w-5 h-5" />
-                </a>
-              </div>
             </div>
 
             {/* Services */}
