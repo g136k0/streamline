@@ -2,7 +2,6 @@
 
 import * as React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { ContactDialog } from '@/components/contact-dialog'
 import { Menu, X } from 'lucide-react'
@@ -46,16 +45,8 @@ export function Header() {
                     <Link
                         href="#hero"
                         onClick={(e) => scrollToSection(e, '#hero')}
-                        className="flex items-center gap-2 group"
+                        className="flex items-center group"
                     >
-                        <div className="relative w-8 h-8 transition-transform group-hover:scale-110">
-                            <Image
-                                src="/logo.png"
-                                alt="Streamline Labs Logo"
-                                fill
-                                className="object-contain"
-                            />
-                        </div>
                         <span className="text-xl font-bold tracking-tighter">Streamline Labs</span>
                     </Link>
 
